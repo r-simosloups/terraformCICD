@@ -16,7 +16,6 @@ terraform {
 
 provider "azurerm" {
   #skip_provider_registration = true
-  subscription_id = "8911ca17-0f83-4672-a8e0-4d5de0ac36eb"
   features {
     #This will allow to delete resources inside resource groups that are not managed by Terraform. 
    resource_group {
