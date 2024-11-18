@@ -16,14 +16,10 @@ terraform {
 
 provider "azurerm" {
   #skip_provider_registration = true
-  features {
-    #This will allow to delete resources inside resource groups that are not managed by Terraform. 
-   resource_group {
-     prevent_deletion_if_contains_resources = false
-  }
+  features { }
 
 }
-}
+
 
 resource "azurerm_resource_group" "rg" {
   # (resource arguments)
