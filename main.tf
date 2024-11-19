@@ -6,7 +6,7 @@ terraform {
       #version = ">3.43.0"
     }
   }
-  cloud { 
+  backend "remote" { 
     organization = "delecoute-terraform" 
     workspaces { 
       name = "terraformCICD" 
