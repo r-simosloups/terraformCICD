@@ -9,7 +9,7 @@ terraform {
  cloud  { 
     organization = "delecoute-terraform" 
     workspaces { 
-      name = "terraformCICD" 
+      name = "terraform-githubactions" 
     } 
   } 
 }
