@@ -13,7 +13,7 @@ terraform {
     } 
   } 
 }
-
+#provider block
 provider "azurerm" {
   features {}
   skip_provider_registration = true
